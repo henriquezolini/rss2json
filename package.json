@@ -1,20 +1,19 @@
 {
   "name": "rss2json",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "author": "Henrique Zolini",
+  "license": "ISC",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "express": "^4.17.1",
+    "rss-to-json": "^2.0.2"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "nodemon": "^2.0.13"
   }
 }
